@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+#logo {
+    width: 170px;
+}
+
+nav {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 500;
+    background-color: rgba(245, 245, 245, 0.705);
+    height: min-content;
+
+   
+}
+
+#nav-links {
+    display: flex;
+    column-gap: 60px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 22px;
+    padding: 80px 40px;
+  }
+
+  #nav-links span:hover{
+  
+    color: rgb(5, 70, 5);
+    cursor: pointer;
+  }
+  
+
+#hero {
+    background-image: url(../assets/images/some-vegetables-basket-sunlight.jpg);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+#hero-overlay {
+background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  row-gap: 20px;
+  padding: 150px 0 0 70px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 50px;
+
+  }
+
+
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 200vh;
+    background-color: wheat;
+
+}
+.pickup-service{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+.pickup-service img{
+    width: 900px;
+    height: 900px;
+}
