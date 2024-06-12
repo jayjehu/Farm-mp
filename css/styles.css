@@ -90,7 +90,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-#product-grid {
+/* #product-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100vw;
@@ -104,7 +104,57 @@ h1 {
     background-color: white;
 }
 
-.pickup-service img{
+.pickup-service-img {
     width: 900px;
     height: 900px;
+} */
+
+#product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: (100px 100px 100px);
+    width: 100vw;
+    height: 150vh;
+    background-color: white;
+   
+  }
+
+
+.product-img  img {
+    width: 950px;
+    height: 780px;
+     
+}
+
+.grid-item {
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    margin-left: 100px ;
+    
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.description {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 100;
+    font-weight: bold;
+    
+}
+
+.more {
+    font-size: 30px;
+    font-family: cursive;
+    
+
 }
