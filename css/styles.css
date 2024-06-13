@@ -90,7 +90,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* #product-grid {
+#product-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100vw;
@@ -107,7 +107,7 @@ h1 {
 .pickup-service-img {
     width: 900px;
     height: 900px;
-} */
+} 
 
 #product-grid {
     display: grid;
@@ -156,6 +156,52 @@ h1 {
 .more {
     font-size: 30px;
     font-family: cursive;
+
+}
+
+#address-sec {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(63, 109, 16);
+    
+}
+
+.address-head {
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+
     
 
 }
+
+
+
+/* .address-grid {
+   
+    width: 100vw;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+    background-color: rgb(67, 252, 67);
+} */
+
+.address-cell {
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+ .gallery {
+    display: flex; 
+    overflow-x: auto; 
+    gap: 10px; 
+}
+
+.gallery-img {
+    flex: content; 
+    height: 80px; 
+    background-color: white; 
+    
+} 
