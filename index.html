@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farm 90</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -35,37 +37,52 @@
         </div>
     </section>
 
-    <!-- <section id="product-grid">
-        <div class="grid-item">
-            <h1 class="caption">Buy-at-farm</h1>
-            <h2 class="description">Visit our farm in-person</h2>
-            <p class="more">You can pass by our farm, enjoy the scenic valley view and buy veggies of your choice.
-                You may also have the opportinity of taking a tour of our fields to see where your edible colors are
-                made!</p>
+    <section class="product-grid">
+        <div class="buy-at-farm">
+            <div class="grid-item">
+                <h1 class="caption">Buy-at-farm</h1>
+                <h2 class="description">Visit our farm in-person</h2>
+                <p class="more">You can pass by our farm, enjoy the scenic valley view and buy veggies of your choice.
+                    You may also have the opportinity of taking a tour of our fields to see where your edible colors are
+                    made!</p>
+                    <button class="more-button">Learn more</button>
+            </div>
+            <div class="product-img">
+                <img class="product-img1" src="./assets/images/smiley-african-man-harvesting-vegetables.jpg"
+                    alt="man harvesting veggies">
+            </div>
+           
         </div>
+
+        <div class="delivery">
         <div class="product-img">
-            <img src="./assets/images/smiley-african-man-harvesting-vegetables.jpg" alt="man harvesting veggies">
+            <img class="product-img1" src="./assets/images/front-view-smiley-woman-with-harvest.jpg"
+                alt="veggie delivery image">
         </div>
-        <div class="product-img">
-            <img src="./assets/images/front-view-smiley-woman-with-harvest.jpg" alt="veggie delivery image">
-        </div>
+
         <div class="grid-item">
             <h1 class="caption">Delivery</h1>
             <h2 class="description">Make an order, we deliver</h2>
             <p class="more">Call us or order your veggies online and we will have them delivered to you!</p>
+            <button class="more-button">Learn more</button>
         </div>
+    </div>
+
+           <div class="veggie-bundles">
         <div class="grid-item">
             <h1 class="caption">Veggie Bundles</h1>
             <h2 class="description">Choose your custom mix of tasty colors</h2>
             <p class="more">You can order special bundles for your homes, restaurants and events. Suprise your loved
                 ones with our special color bundles.</p>
+                <button class="more-button">Learn more</button>
         </div>
         <div class="product-img">
-            <img src="./assets/images/woman-holding-basket-full-different-vegetables.jpg"
+            <img class="product-img1" src="./assets/images/woman-holding-basket-full-different-vegetables.jpg"
                 alt="woman holding bundle of veggies">
         </div>
+    </div>
 
-    </section> -->
+    </section>
 
 
 
@@ -75,55 +92,93 @@
             <h1 class="caption">Visit Our Farm</h1>
         </span>
 
-        <div>
+        <div class="address-grid">
             <div>
                 <h2 class="description">Address</h2>
-                <p class="more">500 Terry Francine St. San Francisco, CA 94158</p>
+                <p class="address-txt">500 Terry Francine </p>
+                <p class="address-txt">St. San Francisco, CA 94158</p>
             </div>
 
-            <div>
+            <div class="cell">
                 <h2 class="description">Open Hours</h2>
-                <p class="more">Mon - Fri: 9am - 6pm</p>
-                <p class="more">​​Saturday: 10am - 2pm</p>
-                <p class="more">​Sunday: Closed</p>
+                <p class="address-txt">Mon - Fri: 9am - 6pm</p>
+                <p class="address-txt">​​Saturday: 10am - 2pm</p>
+                <p class="address-txt">​Sunday: Closed</p>
             </div>
         </div>
 
     </section>
 
 
-    <!-- <section class="gallery">
-            <div class="gallery">
-                
-                <div class="gallery-img">
-                    <img src="./assets/images/woman-with-eggplant.jpg" alt="woman-with-eggplant">
-                </div>
-                <div class="gallery-img">
-                    <img src="./assets/images/african-man-harvesting-vegetables-box.jpg" alt="african-man-harvesting-vegetables-box">
-                </div>
-                <div class="gallery-img">
-                    <img src="./assets/images/pexels-anete-lusina-5247966.jpg" alt="">
-                </div>
-                <div class="gallery-img">
-                    <img src="./assets/images/pexels-og-mpango-1582361-4090603.jpg" alt="pexels-og-mpango-1582361-4090603">
-                </div>
-                <div class="gallery-img">
-                    <img src="/assets/images/photorealistic-view-woman-harvesting-organic-sustainable-garden.jpg" alt="">
-                </div>
+    <section class="gallery">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/images/woman-with-eggplant.jpg" alt="img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/woman-holding-basket-full-different-vegetables.jpg" alt="img" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/some-vegetables-basket-sunlight.jpg" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/smiley-african-man-harvesting-vegetables.jpg" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/photorealistic-view-woman-harvesting-organic-sustainable-garden.jpg" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/images/pexels-zen-chung-5529604.jpg" alt=""/>
+                <div class="swiper-slide">
+                    <img src="./assets/images/pexels-og-mpango-1582361-4090603.jpg" alt=""/>
+                  </div>
+              </div>
             </div>
-        </section> -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
 
 
-    <!-- <footer>
-            <div class="footer-grid">
-                <div class="footer-item">First Column</div>
-                
-                <div class="footer-item">Second Column</div>
-                
-                <div class="footer-item">Third Column</div>
-            </div>
-            
-        </footer> -->
+        <section>
+            <footer class="footer">
+              <div class="footer-container">
+                  <div class="footer-row">
+                      <div class="footer-col">
+                          <h4>About Us</h4>
+                          <p>eat more colors</p>
+                      </div>
+                      <div class="footer-col">
+                          <h4>Quick Links</h4>
+                          <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Menu</a></li>
+                              <li><a href="#">About</a></li>
+                              <li><a href="#">Contact</a></li>
+                          </ul>
+                      </div>
+                      <div class="footer-col">
+                        <h4>Contact Us</h4>
+                        <ul>
+                          <li><i class="fas fa-map-marker-alt"></i> 123 Street, City</li>
+                          <li><i class="fas fa-phone-alt"></i> +1 234 567 890</li>
+                          <li><i class="fas fa-envelope"></i> info@example.com</li>
+                      </ul>
+                    </div>
+                      
+                      </div>
+                  <div class="footer-bottom">
+                      <p>&copy; 2024 Farm 90. All rights reserved.</p>
+                  </div>
+              </div>
+          </footer>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
 
 
 

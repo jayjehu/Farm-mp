@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,6 +9,7 @@ body {
     padding: 0;
     margin: 0;
 }
+
 #logo {
     width: 170px;
 }
@@ -25,7 +26,7 @@ nav {
     background-color: rgba(245, 245, 245, 0.705);
     height: min-content;
 
-   
+
 }
 
 #nav-links {
@@ -35,14 +36,14 @@ nav {
     color: black;
     font-size: 22px;
     padding: 80px 40px;
-  }
+}
 
-  #nav-links span:hover{
-  
+#nav-links span:hover {
+
     color: rgb(5, 70, 5);
     cursor: pointer;
-  }
-  
+}
+
 
 #hero {
     background-image: url(../assets/images/some-vegetables-basket-sunlight.jpg);
@@ -52,16 +53,16 @@ nav {
 }
 
 #hero-overlay {
-background-color: rgba(0, 0, 0, 0.5);
-  height: 100%;
-  width: 100%;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  row-gap: 20px;
-  padding: 150px 0 0 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    row-gap: 20px;
+    padding: 150px 0 0 70px;
 }
 
 header {
@@ -70,23 +71,23 @@ header {
     text-align: left;
     margin-top: 50px;
 
-  }
+}
 
 
 
 h2 {
     font-size: 30px;
     margin-bottom: 40px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: 100;
 
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 80px;
     margin-bottom: 30px;
 }
 
@@ -98,7 +99,8 @@ h1 {
     background-color: wheat;
 
 }
-.pickup-service{
+
+.pickup-service {
     width: 500px;
     height: 500px;
     background-color: white;
@@ -107,63 +109,115 @@ h1 {
 .pickup-service-img {
     width: 900px;
     height: 900px;
-} 
+}
 
-#product-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: (100px 100px 100px);
-    width: 100vw;
-    height: 150vh;
+.product-grid {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: (100px 100px 100px); */
+    /* justify-content: space-evenly; */
+    /* width: 100vw; */
+    /* height: 150vh; */
     background-color: white;
 
-   
-  }
 
 
-.product-img  img {
-    width: 950px;
-    height: 780px;
-     
+}
+
+.buy-at-farm {
+    display: flex;
+    justify-content: center;
+}
+
+.delivery {
+    display: flex;
+    justify-content: center;
+}
+
+.veggie-bundles {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.product-img1 {
+    width: 100%;
+    height: 80vh;
+    border-radius: 20px;
+
+
+
+
+
+}
+
+.product-img {
+    width: 58%;
+
+
+}
+
+.product-img:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 .grid-item {
-    width: 700px;
+    width: 50%;
     height: 500px;
     background-color: white;
     padding: 20px;
-    margin-left: 100px ;
-    
+    margin-left: 100px;
+
 }
 
 .caption {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     margin-top: 50px;
 }
 
 .description {
     font-size: 40px;
     margin-bottom: 40px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     font-weight: 100;
     font-weight: bold;
-    
+
+
 }
 
 .more {
     font-size: 30px;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-bottom: 30px;
+
 
 }
 
 #address-sec {
-    width: 100vw;
-    height: 50vh;
-    background-color: rgb(63, 109, 16);
-    
+    /* width: 100vw;
+    height: 50vh; */
+    background-color: #7DBD4A;
+
+
+}
+
+.address-txt {
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.cell {
+    justify-content: center;
 }
 
 .address-head {
@@ -171,21 +225,20 @@ h1 {
     width: 100vw;
     height: 50vh;
 
-    
 
 }
 
 
 
-/* .address-grid {
-   
-    width: 100vw;
-    height: 250px;
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 10px; 
-    background-color: rgb(67, 252, 67);
-} */
+.address-grid {
+
+    /* width: 100vw;
+    height: 250px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
 
 .address-cell {
     justify-content: center;
@@ -193,15 +246,221 @@ h1 {
     padding-right: 200px;
 }
 
- .gallery {
-    display: flex; 
-    overflow-x: auto; 
-    gap: 10px; 
+.gallery {
+    display: flex;
+    flex-direction: row;
+    /* overflow-x: auto;  */
+    /* gap: 10px;  */
 }
 
 .gallery-img {
-    flex: content; 
-    height: 80px; 
-    background-color: white; 
+    flex: content;
+    width: 58%;
+    background-color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+.footer-gallery {
+    flex: 1 100%;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer-gallery {
+        flex: 1;
+        width: 100%;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    }
+}
+
+.footer {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 50px 0;
+    font-size: 20px;
+}
+
+.footer-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-col h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer-col h4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 50px;
+    background-color: #d4af37;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    color: #7DBD4A;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #bbb;
+}
+
+.more-button {
+    background-color: rgb(125, 189, 74);
+    color: rgb(178, 248, 131);
+    border: 10px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+    border-radius: 30px;
+    /* cursor: pointer; */
+}
+
+.more-button:hover {
+    background-color: rgb(125, 189, 74);
+    color: rgb(178, 248, 131);
+    cursor: pointer;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  
+  .swiper {
+      width: 98vw;
+      height: 98vh;
+    }
+  
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
     
-} 
